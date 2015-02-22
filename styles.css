@@ -1,0 +1,66 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+
+body {
+	font-family:'Open Sans', sans-serif;
+	font-size:13px;
+}
+
+/* comments */
+.comment {
+	width:45%;
+	height:auto;
+	padding:7px 23px;
+	background-color:#F5F5F5;
+	box-shadow:0px 2px 4px rgba(0,0,0,0.15), 0px 0px 3px rgba(0,0,0,0.15);
+	margin:0px auto;
+	margin-bottom:10px;
+	text-align:justify;
+}
+.child {
+	width:calc(100% - 92px);
+	height:auto;
+	padding:3px 25px;
+	margin:10px 0px 10px 35px;
+	box-shadow:-5px 0px 0px 0px  #777;
+	background-color:rgba(1,1,1,0.05);
+	border:1px solid rgba(1,1,1,0.1);
+}
+
+
+/* fonts */
+.author, .date {
+	font-size:11.2px;
+	font-weight:600;
+	color:#777;
+	text-transform:uppercase;
+}
+
+.replies {
+	color:#39C;
+	font-weight:600;
+	cursor:pointer;
+}
+.replies:hover {
+	color:#39F;
+}
+
+.text_cmt {
+	width:calc(100% - 22px);
+	height:auto;
+	padding:10px;
+	background-color:#FFF;
+	border:1px solid rgba(1,1,1,0.3);
+	outline:none;
+	font-family:'Open Sans', sans-serif;
+	font-size:13px;
+	line-height:15px;
+	margin-top:10px;
+}
+
+h1 {
+	width:45%;
+	height:auto;
+	margin:0px auto;
+	font-size:42px;
+	font-weight:normal;
+}
